@@ -1,4 +1,5 @@
 # Recursive Mergesort
+*University Assignment*
 I implemented a recursive mergesort sorting algorithm in Java. The mergesort is used to sort objects in a list that implements the IndexedUnsortedList interface. I implemented the mergesort algorithm twice, once using the compareTo() method (extends Comparable), and once using the compare() method (which extends Comparator).
 
 ### ***Overview***
