@@ -1,8 +1,3 @@
-# Recursive Mergesort
-
-I implemented a recursive mergesort sorting algorithm in Java. The mergesort is used to sort objects in a list that implements the IndexedUnsortedList interface. I implemented the mergesort algorithm twice, once using the compareTo() method (extends Comparable), and once using the compare() method (which extends Comparator).
-
-
 # Recursive-Mergesort
 ****************
 * Recursive Mergesort
@@ -12,7 +7,7 @@ I implemented a recursive mergesort sorting algorithm in Java. The mergesort is 
 
 ### ***OVERVIEW:***
 
-The recursive mergesort algorithm is a divide-and-conquer sorting technique that operates by dividing an array into two halves, sorting each half independently, and then merging the sorted halves to produce a fully sorted array. Mergesort is known for its stable sorting behavior and has a time complexity of O(n log n) in the average and worst cases, making it efficient for large datasets.
+I implemented a recursive mergesort sorting algorithm in Java. The mergesort is used to sort objects in a list that implements the IndexedUnsortedList interface. I implemented the mergesort algorithm twice, once using the compareTo() method (extends Comparable), and once using the compare() method (which extends Comparator).
 
 
 ### ***INCLUDED FILES:***
@@ -34,6 +29,9 @@ The recursive mergesort algorithm is a divide-and-conquer sorting technique that
  </pre>
 
  The console output will give the results after the program finishes.
+
+### ***PROGRAM DESIGN AND IMPORTANT CONCEPTS*** ###
+The recursive mergesort algorithm is a divide-and-conquer sorting technique that operates by dividing an array into two halves, sorting each half independently, and then merging the sorted halves to produce a fully sorted array. Mergesort is known for its stable sorting behavior and has a time complexity of O(n log n) in the average and worst cases, making it efficient for large datasets.
 
 
 ### ***TESTING:***
