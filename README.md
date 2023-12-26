@@ -28,9 +28,11 @@ I implemented a recursive mergesort sorting algorithm in Java. The mergesort is 
  $ javac *.java
  </pre>
 
- Run the compiled ListTester class file with the command:
+ Ignore the warnings produced in this process.
+
+ Run the compiled SortTester class file with the command:
  <pre>
- $ java ListTester.java
+ $ java SortTester.java
  </pre>
 
  The console output will give the results after the program finishes.
