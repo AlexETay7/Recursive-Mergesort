@@ -12,6 +12,11 @@ I implemented a recursive mergesort sorting algorithm in Java. The mergesort is 
 
 ### ***INCLUDED FILES:***
 
+ * IUDoubleLinkedList.java - A node-based doubly-linked implementation of the IndexedUnsortedList interface.
+ * IndexedUnsortedList.java - Interface for an Iterable, Indexed, Unsorted List ADT. Implemented in IUDoubleLinkedList.java.
+ * Node.java - A doubly-linked node class for linear data structures.
+ * Sort.java - A class for sorting lists that implements the IndexedUnsortedList interface, using ordering defined by a class of objects in a list or a Comparator. As written uses a Mergesort 
+ algorithm.
  * README - A brief overview of the program, how to run and compile it, related concepts, and testing information.
 
 
